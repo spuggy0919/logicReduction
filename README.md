@@ -52,7 +52,7 @@ G=qrs+p'q'r'
 11 0
 ```
 
-# mac os binary logicReduction/bin
+# Mac os binary logicReduction/bin
 ```
 ./logicreduction xor.txt xoro.txt 2
 ```
