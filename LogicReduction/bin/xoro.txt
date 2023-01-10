@@ -1,0 +1,13 @@
+%Minimize ver 1.0 spuggy0919@gmail.com
+%Xor True Table
+%00 0
+%01 1
+%10 1
+%11 0
+%
+% Input Symbols:10
+%              :pq
+%Output Symbols:0
+%              :A
+%VHDL Style Format
+A=((NOT  p) AND q) OR (p AND (NOT  q))
