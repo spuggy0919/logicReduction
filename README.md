@@ -2,7 +2,6 @@
 This program converts true table to logic equations.
 This simple command line program convert true table to symbol equations, and if possible, miniize it. 
 ```
-```
     Minimize uitlity Ver 1.0 2015 CopyRight(c) author:spuggy0919@gmail.com\n",      
     Usage:minimize in.txt out.txt [Format]\n
     in.txt input true table\n
@@ -13,10 +12,9 @@ This simple command line program convert true table to symbol equations, and if 
     2 Abel style
     3 Verilog style
     4 PALASM style
-'''
+```
 # Example
-'''
-
+```
 %BCD to 7 segment common +5V True Table
 %000 gfedcba
 %0000 0000001
@@ -42,15 +40,15 @@ E=s+qr'
 F=rs+q'r+p'q's
 G=qrs+p'q'r'
 
-'''
+```
 
-'''
+```
 %Xor True Table
 00 0
 01 1
 10 1
 11 0
-'''
+```
 
 # mac os binary logicReduction/bin
 ```
