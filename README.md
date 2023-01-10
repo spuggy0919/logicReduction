@@ -16,6 +16,34 @@ This simple command line program convert true table to symbol equations, and if 
 '''
 # Example
 '''
+%BCD to 7 segment common +5V True Table
+%000 gfedcba
+%0000 0000001
+%0001 1001111
+%0010 0010010
+%0011 0000110
+%0100 1001100
+%0101 0100100
+%0110 0100000
+%0111 0001111
+%1000 0000000
+%1001 0000100
+%
+% Input Symbols:3210
+%              :pqrs
+%Output Symbols:0123456
+%              :ABCDEFG
+A=qr's'+p'q'r's
+B=qr's+qrs'
+C=q'rs'
+D=qrs+qr's'+p'q'r's
+E=s+qr'
+F=rs+q'r+p'q's
+G=qrs+p'q'r'
+
+'''
+
+'''
 %Xor True Table
 00 0
 01 1
@@ -23,7 +51,7 @@ This simple command line program convert true table to symbol equations, and if 
 11 0
 '''
 
-# mac os in /bin
+# mac os binary logicReduction/bin
 ```
 ./logicreduction xor.txt xoro.txt 2
 ```
