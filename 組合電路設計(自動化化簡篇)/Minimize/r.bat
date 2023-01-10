@@ -1,0 +1,1 @@
+bin\Debug\Minimize.exe 7plusseg.txt 7pluso.txt

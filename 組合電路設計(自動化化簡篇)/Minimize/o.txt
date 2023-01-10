@@ -1,0 +1,2 @@
+%out of range Input True Table
+%0000000000 0000000110100111XXXXXX

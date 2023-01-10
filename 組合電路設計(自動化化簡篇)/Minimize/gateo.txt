@@ -1,0 +1,26 @@
+%Xor True Table
+%00 0101010101010101
+%01 0011001100110011
+%10 0000111100001111
+%11 0000000011111111
+%
+% Input Symbols:10
+%              :pq
+%Output Symbols:5432109876543210
+%              :ABCDEFGHIJKLMNOP
+A=0
+B=p'q'
+C=p'q
+D=p'
+E=pq'
+F=q'
+G=p'q+pq'
+H=q'+p'
+I=pq
+J=pq+p'q'
+K=q
+L=q+p'
+M=p
+N=q'+p
+O=q+p
+P=1

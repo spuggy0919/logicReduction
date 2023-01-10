@@ -1,0 +1,6 @@
+%Xor True Table
+% Input Symbols:10
+%              :pq
+%Output Symbols:0
+%              :A
+A=qp'+q'p

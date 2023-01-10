@@ -1,0 +1,9 @@
+%graycode True Table
+% Input Symbols:3210
+%              :pqrs
+%Output Symbols:3210
+%              :ABCD
+A=p
+B=qp'+q'p
+C=rq'+r'q
+D=sr'+s'r

@@ -1,0 +1,27 @@
+%Minimize ver 1.0 spuggy0919@gmail.com
+%bcd count loop  True Table
+%0000 0001
+%0001 0010
+%0010 0011
+%0011 0100
+%0100 0101
+%0101 0110
+%0110 0111
+%0111 1000
+%1000 1001
+%1001 0000
+%1010 XXXX
+%1011 XXXX
+%1100 XXXX
+%1101 XXXX
+%1110 XXXX
+%1111 XXXX
+%
+% Input Symbols:3210
+%              :pqrs
+%Output Symbols:0123
+%              :ABCD
+A=(p&&!s)||(q&&r&&s)
+B=(q&&!s)||(q&&!r)||(!q&&r&&s)
+C=(r&&!s)||(q&&!r&&s)||(!p&&!r&&s)
+D=(!s)

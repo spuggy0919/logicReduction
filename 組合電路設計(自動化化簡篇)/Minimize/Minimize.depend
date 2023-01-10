@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1452766712 source:d:\share\steven\c++\minimize\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"io/io.h"
+
+1452766765 source:d:\share\steven\c++\minimize\io\fileio.c
+	"io.h"
+
+1452766765 d:\share\steven\c++\minimize\io\io.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<malloc.h>
+

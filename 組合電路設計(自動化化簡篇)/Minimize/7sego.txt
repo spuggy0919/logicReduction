@@ -1,0 +1,25 @@
+%Minimize ver 1.0 spuggy0919@gmail.com
+%7 segment True Table
+%0000 1110111
+%0001 0010010
+%0010 1011101
+%0011 1011011
+%0100 0111010
+%0101 1101011
+%0110 1101111
+%0111 1010010
+%1000 1111111
+%1001 1111011
+%
+% Input Symbols:3210
+%              :pqrs
+%Output Symbols:0123456
+%              :ABCDEFG
+%VHDL Style Format
+A=r OR p OR (q AND s) OR ((NOT  q) AND (NOT  s))
+B=p OR ((NOT  r) AND (NOT  s)) OR (q AND (NOT  s)) OR (q AND (NOT  r))
+C=(NOT  q) OR (r AND s) OR ((NOT  r) AND (NOT  s))
+D=p OR (r AND (NOT  s)) OR (q AND (NOT  s)) OR ((NOT  q) AND r) OR (q AND (NOT  r))
+E=(r AND (NOT  s)) OR ((NOT  q) AND (NOT  s))
+F=s OR (NOT  r) OR q
+G=p OR (r AND (NOT  s)) OR ((NOT  q) AND (NOT  s)) OR ((NOT  q) AND r) OR (q AND (NOT  r) AND s)
