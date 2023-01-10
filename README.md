@@ -1,6 +1,6 @@
 # logicReduction
-This program converts true table to logic equations.
-This simple command line program convert true table to symbol equations, and if possible, miniize it. 
+This program converts true table to logical equations.
+This simple command line program converts true table to symbol equations, and if possible, miniizes it. 
 ```
     Minimize uitlity Ver 1.0 2015 CopyRight(c) author:spuggy0919@gmail.com\n",      
     Usage:minimize in.txt out.txt [Format]\n
