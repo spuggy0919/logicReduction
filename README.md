@@ -16,6 +16,7 @@ This simple command line program convert true table to symbol equations, and if 
 '''
 # Example
 '''
+
 %BCD to 7 segment common +5V True Table
 %000 gfedcba
 %0000 0000001
