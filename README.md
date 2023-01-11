@@ -1,6 +1,6 @@
 # logicReduction
-This program converts true table to logical equations.
-This simple command line program converts true table to symbol equations, and if possible, miniizes it. 
+This program converts truth table to logical equations.
+This simple command line program converts truth table to symbol equations, and if possible, minimizes it. 
 
 ### Input terms are 1,0,X, (two bits), Input Limit is 10.
 ```
@@ -17,7 +17,7 @@ This simple command line program converts true table to symbol equations, and if
 ```
 # Example
 ```
-%BCD to 7 segment common +5V True Table
+%BCD to 7 segment common +5V Truth Table
 %000 gfedcba
 %0000 0000001
 %0001 1001111
@@ -45,7 +45,7 @@ G=qrs+p'q'r'
 ```
 
 ```
-%Xor True Table
+%Xor Truth Table
 00 0
 01 1
 10 1
